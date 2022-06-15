@@ -1,0 +1,114 @@
+$defaultInput : 1px solid;
+$defaultBorder :  #828282;
+$defaultHover :  #333333;
+$defaultFocus :  #2962FF;
+$errorBorder :  #D32F2F;
+
+label{
+  position: relative;
+}
+
+input.input--default:hover,input.input--error:hover{
+  outline: none !important;
+  border: $defaultInput $defaultHover;
+}
+
+input.input--default:focus{
+  outline: none !important;
+  border: $defaultInput $defaultFocus;
+}
+
+
+
+input.input--error{
+  border: $defaultInput $errorBorder;
+}
+
+input.input--error:focus{
+  outline: none !important;
+  border: $defaultInput $errorBorder;
+}
+
+label.labelFocus{
+  color: $defaultFocus;
+}
+
+label.labelError{
+  color: $errorBorder;
+}
+label.labelError:hover{
+  color: $defaultHover;
+}
+label.labelFocusError{
+  color: #D32F2F !important;
+}
+
+input[type="text"]:disabled{
+  background: #F2F2F2;
+  border: 1px solid #E0E0E0;
+  cursor: not-allowed;
+}
+
+span{
+  position:absolute;
+  display: inline-block;
+  color: #828282;
+  margin-top: 60px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+span.input--error{
+  color: $errorBorder;
+}
+
+input.input--start-icon{
+  padding-left: 45px;
+}
+
+input[value ="Text"]{
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 12px;
+}
+
+input.input--size-sm{
+  height: 40px !important;
+}
+
+input.input--size-md{
+  height: 56px !important;
+}
+
+input.fullWidth{
+  width: 1031px;
+}
+
+textarea[name="Text1"]{
+  height: 150px;
+  width: 200px;
+}
+textarea[name="Text1"]:hover{
+  outline: none !important;
+  border: $defaultInput $defaultHover;
+}
+textarea[name="Text1"]:focus{
+  outline: none !important;
+  border: $defaultInput $defaultFocus;
+}
+
+.container{
+  min-height: 100vh;
+  max-width: 500px;
+  display: grid;
+  gap: 3em;
+  margin: 3em;
+}
+
+.input-box{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}

@@ -1,0 +1,30 @@
+$defaultInput : 1px solid;
+$defaultBorder :  #828282;
+$defaultHover :  #333333;
+$defaultFocus :  #2962FF;
+$errorBorder :  #D32F2F;
+
+
+.startIconCustom{
+    color: #828282;
+    position: absolute;
+    top:-42px;
+    left:10px;
+    font-size: 17.96px;
+}
+
+.endIconCustom{
+    position: absolute;
+    top:-43px;
+    left:8.5em;
+    font-size: 20px;
+}
+
+input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 56px;
+    border: $defaultInput $defaultBorder;
+    border-radius: 8px;
+}
