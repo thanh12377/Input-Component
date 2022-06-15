@@ -16,33 +16,33 @@ function App() {
         </div>
         <div className="input-box">
           <div>
-            Inputs<br></br>
+          {'<Input error />'}<br></br>
             <br></br>
             <Input error = 'error'></Input>
           </div>
         </div>
         <div className="input-box">
           <div>
-            Inputs<br></br>
+          {'<Input disabled />'}<br></br>
             <br></br>
             <Input disabled></Input>
           </div>
         </div>
         <div className="input-box">
           <div>
-            Inputs<br></br>
+          {'<Input helperText = "Some interesting text" />'}<br></br>
             <br></br>
             <Input helperText></Input>
           </div>
           <div>
-            Inputs<br></br>
+          {'<Input helperText = "Some interesting text" error />'}<br></br>
             <br></br>
             <Input error= 'error' helperText></Input>
           </div>
         </div>
         <div className="input-box">
           <div>
-            Inputs<br></br>
+          {'<Input startIcon />'}<br></br>
             <br></br>
             <label>
             
@@ -50,40 +50,40 @@ function App() {
             </label>
           </div>
           <div>
-            Inputs<br></br>
+          {'<Input endIcon />'}<br></br>
             <br></br>
             <Input endIcon = "lock"></Input>
           </div>
         </div>
         <div className="input-box">
           <div>
-            Inputs<br></br>
+          {'<Input value = "text" />'}<br></br>
             <br></br>
             <Input value = "text"></Input>
           </div>
         </div>
         <div className="input-box">
           <div>
-            Inputs<br></br>
+          {'<Input size = "sm" />'}<br></br>
             <br></br>
             <Input size = "sm"></Input>
           </div>
           <div>
-            Inputs<br></br>
+          {'<Input size = "md" />'}<br></br>
             <br></br>
             <Input size = "md"></Input>
           </div>
         </div>
         <div className="input-box">
           <div>
-            Inputs<br></br>
+          {'<Input fullWidth />'}<br></br>
             <br></br>
             <Input fullWidth value = "text"></Input>
           </div>
         </div>
         <div className="input-box">
           <div>
-            Inputs<br></br>
+          {'<Input multiline row= "4" />'}<br></br>
             <br></br>
             <Input getrow></Input>
           </div>
